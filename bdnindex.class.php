@@ -16,7 +16,7 @@
  *  - none (0)
  */
 
-class benoitIndex {
+class bdnIndex {
     
     const ga_profile_id = '10742869';
     const above_high_threshold = '4000';
@@ -624,8 +624,8 @@ class benoitIndex {
                 //@todo would it be appropriate to make these parameters in the argument?
                 $this->buildWordCounts($desk, $author_id, $author);
                 $this->buildCountMetrics($desk, $author_id, $author);
-                $this->buildAboveThreshold($desk, $author_id, $author, $thresholds = array('above_high_threshold' => benoitIndex::above_high_threshold, 'above_low_threshold' => benoitIndex::above_low_threshold)); //must be after total stories
-                $this->buildBeforePublishingThreshold($desk, $author_id, $author, $time = benoitIndex::before_publishing_threshold);
+                $this->buildAboveThreshold($desk, $author_id, $author, $thresholds = array('above_high_threshold' => bdnIndex::above_high_threshold, 'above_low_threshold' => bdnIndex::above_low_threshold)); //must be after total stories
+                $this->buildBeforePublishingThreshold($desk, $author_id, $author, $time = bdnIndex::before_publishing_threshold);
                 $this->buildTimeOnStory($desk, $author_id, $author); 
                 $this->buildCompletionRate($desk, $author_id, $author);
                 

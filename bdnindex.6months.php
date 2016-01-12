@@ -37,7 +37,7 @@ $data = readJSON($file);
 if(!$data) {
     // Look for a started file.
 
-    $data = new benoitIndex($reporting_period);
+    $data = new bdnIndex($reporting_period);
 
     // Create a file to save the data when it's completed.
     $data->cache_date = date("Y-m-d H:i:s");
