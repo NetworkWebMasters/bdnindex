@@ -1,4 +1,5 @@
 b-data/
-bdnindex/
-individuals/
+bdnindex/*
+individuals/*
 google-api-php-client/
+b-users.php
