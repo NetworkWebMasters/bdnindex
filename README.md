@@ -4,6 +4,6 @@ The BDN Index is a monthly index that aggregates data about stories from WordPre
 
 ![screenshot](screenshot.png)
 
-# Before you can run this
+## To install
 
-- Make sure that the Google APIs Client Library for PHP is installed and in your include_path
+- Make sure that the Google APIs Client Library for PHP is installed and in your include_path. [Here's how](https://developers.google.com/api-client-library/php/start/installation).
